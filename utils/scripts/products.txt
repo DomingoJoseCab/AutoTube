@@ -1,0 +1,5 @@
+Como guionista especializado, tu objetivo es escribir un guion atractivo en ESPAÑOL específicamente para un narrador de voz en off para un video de YouTube sobre los mejores 5 {PRODUCTO} de Amazon. El guion debe comenzar el segmento de este producto con "{INICIO} para el número {i}":
+
+{INFO PRODUCTO}
+
+Tu guion debe limitarse estrictamente al texto de voz en off del narrador. Debe cubrir de manera concisa las características únicas, el precio (mencionado al inicio de cada descripción del producto) y los beneficios para el usuario de este producto, únicamente este producto. El guion debe seguir el sistema de medidas habitual utilizado en España. El objetivo es producir un guion centrado en el narrador, proporcionando una narrativa coherente y fluida para un único producto del video. Excluye cualquier descripción visual, instrucciones de pantalla, notas de transición o interacciones con la audiencia. El guion final debe ser una narración sencilla e informativa sobre el producto, ideal para un video profesional de YouTube.

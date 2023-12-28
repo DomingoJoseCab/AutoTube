@@ -1,0 +1,6 @@
+moviepy==1.0.3
+openai==1.5.0
+playwright==1.39.0
+pydub==0.25.1
+Requests==2.31.0
+selectolax==0.3.17

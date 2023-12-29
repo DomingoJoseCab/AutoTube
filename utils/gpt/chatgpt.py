@@ -31,22 +31,22 @@ def chatgpt(data, folder_path):
     
     #################### GENERATING INTRO ####################
     print("Generating intro...")
-    intro_path = os.path.join(datos['scripts_path'],datos['language'],'intro.txt')
-    get_better_intro(intro_path, datos['video_name'], datos['language'])
+    intro_path = os.path.join(datos['scripts_path'],'intro.txt')
+    get_better_intro(intro_path, datos['video_name'])
     print("Intro generated.")
     print("-----------------------------")
 
     #################### GENERATING PRODUCTS ####################
     for i, product in enumerate(list_asins):
         print(f"Generating product {5-i}...")
-        get_product_script(data[product],datos['video_name'],5-i, datos['language'])
+        get_product_script(data[product],datos['video_name'],5-i)
     print("Products generated.")
     print("-----------------------------")
     
     #################### GENERATING OUTRO ####################
     print("Generating outro...")
-    outro_path = os.path.join(datos['scripts_path'],datos['language'],'outro.txt')
-    get_better_outro(outro_path, datos['video_name'], datos['language'])
+    outro_path = os.path.join(datos['scripts_path'],'outro.txt')
+    get_better_outro(outro_path, datos['video_name'])
     print("Outro generated.")
     print("-----------------------------")
 
@@ -67,8 +67,8 @@ def chatgpt(data, folder_path):
     with open(os.path.join(folder_path,'datos.json'), 'w', encoding='utf-8') as products:
         json.dump(description_data, products, indent=4)
 
-    description_path = os.path.join(datos['scripts_path'],datos['language'],'description.txt')
-    get_description(description_path, description_data, datos['language'])
+    description_path = os.path.join(datos['scripts_path'],'description.txt')
+    get_description(description_path, description_data)
     print("Description generated.")
     print("-----------------------------")
 

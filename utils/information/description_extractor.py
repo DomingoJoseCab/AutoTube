@@ -36,7 +36,7 @@ def get_about(html):
 def get_show_more(html):
     return html.css_first("ul.a-unordered-list").text(strip=True)
 
-def get_video_url(html, asin, language):
+def get_video_url(html, asin):
     try:
         url = html.css_first("video.vjs-tech").attributes.get('src')
         return url

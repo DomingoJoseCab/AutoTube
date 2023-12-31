@@ -1,0 +1,8 @@
+# Main configuration file (you don't need to see it xD)
+args.json
+
+# Generated data
+data/*
+
+# Python cache files
+*.pyc

@@ -1,6 +1,6 @@
 # AutoTube
 
-Bienvenidos a AutoTube, una herramienta creada por mí para generar vídeos automáticos de productos de Amazon para YouTube.
+Bienvenidos a AutoTube, una herramienta creada por Domingo Caballero para generar vídeos automáticos de productos de Amazon para YouTube.
 
 ## Cómo Usarlo
 
@@ -12,11 +12,11 @@ Para utilizar AutoTube, sigue estos pasos:
    - Abre una terminal y navega hasta la carpeta del proyecto.
    - Ejecuta `pip install -r requirements.txt` para instalar todas las dependencias necesarias.
 
-2. **Configuración del Archivo `args.json`**:
+2. **Configuración del Archivo `args.json` siguiendo el patron de `args_example.json`**:
    - Encontrarás un archivo llamado `args.json` en el directorio principal.
    - Abre este archivo con un editor de texto.
    - Configura los siguientes parámetros:
-     - `"OPENAI_API_KEY"`: Coloca aquí tu key de la API de OPENAI (CHATGPT4)
+     - `"OPENAI_API_KEY"`: Coloca aquí tu key de la API de OPENAI (CHATGPT4 Y DALL-E)
      - `"LOVOAI_API_KEY"`: Coloca aquí tu key de la API de LOVOAI (voz con IA)
      - `"video_name"`: Coloca aquí el nombre del producto el cual estas haciendo el video.
      - `"ASIN_TOPx"`: Ingresa los ASIN relevantes para tu video.

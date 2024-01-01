@@ -11,7 +11,7 @@ import requests
 from utils.voice.combine_subaudios import combine_subaudios
 
 def get_api_key():
-    with open('../AutoTube/args.json', 'r', encoding='utf-8') as archivo:
+    with open('../AutoTube/argss.json', 'r', encoding='utf-8') as archivo:
         datos = json.load(archivo)
     return datos['LOVOAI_API_KEY']
 

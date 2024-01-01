@@ -12,8 +12,8 @@ Para utilizar AutoTube, sigue estos pasos:
    - Abre una terminal y navega hasta la carpeta del proyecto.
    - Ejecuta `pip install -r requirements.txt` para instalar todas las dependencias necesarias.
 
-2. **Configuración del Archivo `args.json` siguiendo el patron de `args_example.json`**:
-   - Encontrarás un archivo llamado `args.json` en el directorio principal.
+2. **Configuración del Archivo `argss.json` siguiendo el patron de `args_example.json`**:
+   - Encontrarás un archivo llamado `argss.json` en el directorio principal.
    - Abre este archivo con un editor de texto.
    - Configura los siguientes parámetros:
      - `"OPENAI_API_KEY"`: Coloca aquí tu key de la API de OPENAI (CHATGPT4 Y DALL-E)
@@ -22,7 +22,7 @@ Para utilizar AutoTube, sigue estos pasos:
      - `"ASIN_TOPx"`: Ingresa los ASIN relevantes para tu video.
 
 3. **Ejecutar AutoTube**:
-   - Una vez configurado el `args.json`, ejecuta `main.py` desde tu terminal con el comando `python main.py`.
+   - Una vez configurado el `argss.json`, ejecuta `main.py` desde tu terminal con el comando `python main.py`.
    - El programa procesará la información según lo configurado y realizará las acciones programadas.
 
 Si tienes alguna duda o necesitas ayuda adicional, no dudes en contactarme.

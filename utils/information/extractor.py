@@ -29,7 +29,7 @@ def get_html(asin):
     return html
 
 def extractor(asin, video_path):
-    with open('../AutoTube/args.json', 'r', encoding='utf-8') as archivo:
+    with open('../AutoTube/argss.json', 'r', encoding='utf-8') as archivo:
         datos = json.load(archivo)
 
     print("Getting html...")

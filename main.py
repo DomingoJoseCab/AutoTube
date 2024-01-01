@@ -64,7 +64,7 @@ def main(folder_path, datos):
     edit(folder_path)
 
 if __name__ == "__main__":
-    with open('../AutoTube/args.json', 'r', encoding='utf-8') as archivo:
+    with open('../AutoTube/argss.json', 'r', encoding='utf-8') as archivo:
         datos = json.load(archivo)
 
     folder_path = set_up_folders(datos['video_name'])

@@ -12,7 +12,7 @@ from utils.gpt.generate_script import get_product_script, get_better_intro, get_
 from utils.gpt.generate_description import get_description, set_up_generate_description
 from utils.gpt.generate_miniature import get_miniature, set_up_generate_miniature
 
-with open('../AutoTube/args.json', 'r', encoding='utf-8') as archivo:
+with open('../AutoTube/argss.json', 'r', encoding='utf-8') as archivo:
         datos = json.load(archivo)
 
 OPENAI_API_KEY = datos['OPENAI_API_KEY']

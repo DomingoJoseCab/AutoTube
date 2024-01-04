@@ -1,0 +1,14 @@
+{
+    "OPENAI_API_KEY": "",
+    "LOVOAI_API_KEY": "",
+    "scripts_path": "../AutoTube/utils/scripts",
+    
+    "_comment": "MODIFICAR A PARTIR DE AQUÍ:",
+
+    "video_name": "nombre video",
+    "ASIN_TOP5": "",
+    "ASIN_TOP4": "",
+    "ASIN_TOP3": "",
+    "ASIN_TOP2": "",
+    "ASIN_TOP1": ""
+}

@@ -5,7 +5,6 @@
 # Lista de Correo: https://emprendecondomingo.substack.com/
 # ==============================================================================
 
-import requests
 import json
 from playwright.sync_api import sync_playwright
 from selectolax.parser import HTMLParser
@@ -30,7 +29,7 @@ def get_html(asin):
     return html
 
 def extractor(asin, video_path):
-    with open('../amz_scrapping/args.json', 'r', encoding='utf-8') as archivo:
+    with open('../AutoTube/argss.json', 'r', encoding='utf-8') as archivo:
         datos = json.load(archivo)
 
     print("Getting html...")

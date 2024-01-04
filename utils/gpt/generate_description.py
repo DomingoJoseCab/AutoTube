@@ -26,7 +26,7 @@ def guardar_respuesta(respuesta, output_guion):
         file.write(texto_respuesta)
 
 def get_prompt_replaced(description_path, data):
-    with open('../AutoTube/args.json', 'r', encoding='utf-8') as d:
+    with open('../AutoTube/argss.json', 'r', encoding='utf-8') as d:
         datos = json.load(d)
 
     with open(description_path, 'r', encoding='utf-8') as desc:
